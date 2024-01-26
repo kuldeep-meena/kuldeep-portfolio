@@ -35,26 +35,18 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Full-Stack Developer",
-    location: "Kr Mroads, Hyderabad",
+    title: "Sofware Engineer",
+    location: "Persistent Systems, Pune",
     description:
-      "I'm now a full-stack developer. My stack includes React, Next.js, TypeScript, Tailwind and Framer-motion.",
+      "Worked as a FrontEnd Engineer . My stack includes React, Next.js, TypeScript, Tailwind and Framer-motion.",
     icon: React.createElement(FaReact),
-    date: "2022 - present",
+    date: "June 2022 - Jan 2024",
   },
   {
-    title: "Junior Software Developer",
-    location: "Kr Mroads, Hyderabad",
+    title: "Mechanical Engineering",
+    location: "Indian Institute of Technology (BHU) Varanasi",
     description:
-      "Started as a front end web developer using Reactjs and Material UI. Majorly worked on bug fixing, refactoring and folder structure.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2022(April) - 2022(Dec)",
-  },
-  {
-    title: "Electronics Engineering",
-    location: "CTAE, Udaipur",
-    description:
-      "I did my engineering in electronics. Secured multiple off-campus offers of job as a Software developer.",
+      "I did my engineering in mechanical. Secured on-campus offer of job as a Software developer.",
     icon: React.createElement(LuGraduationCap),
     date: "2018-2022",
   }
@@ -62,13 +54,13 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Ecommerce: Admin and Client",
+    title: "Modern UI/UX: Travelling WebSite",
     description:
-      "Full stack ecommerce app with multiple stores functionality exposing public APIs for client app. ",
-    tags: ["Next.js", "Tailwind", "shad-cn", "MySQL", "Prisma", "Typescript"],
+      " Feature-rich travel app covering everything from a sleek UI to mobile-first best practices. ",
+    tags: ["Next.js 14", "Tailwind CSS", "Typescript","React.js"],
     imageUrl: ecomImg,
     projectLink: 'https://ecom-dashboard-five.vercel.app/',
-    githubLink: 'https://github.com/rohitt-gupta/ecommerce-store',
+    githubLink: 'https://github.com/kuldeep-meena/Modern-UI-UX-app',
   },
   {
     title: "Jam and Play",
@@ -79,15 +71,6 @@ export const projectsData = [
     projectLink: 'https://www.jamandplay.com/',
     githubLink: '',
   },
-  {
-    title: "TaskFlow:The Trello Clone",
-    description:
-      "A simple yet beautiful todo app with drag ad drop functionality, backed by appwrite cloud for seamless data integration.  ",
-    tags: ["React", "Next.js", "Appwrite", "Tailwind", "React-beautiful-dnd"],
-    imageUrl: trelloImg,
-    projectLink: 'https://trello-clone-xjcj.vercel.app/',
-    githubLink: 'https://github.com/rohitt-gupta/trello-clone',
-  },
 ] as const;
 
 export const skillsData = [
@@ -97,17 +80,11 @@ export const skillsData = [
   "TypeScript",
   "React",
   "Next.js",
-  "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
   "Redux",
-  "GraphQL",
-  "Headless UI",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Open Source",
+  "Java",
+  "C++",
+  "Data Structures And Algorithms",
   "Framer Motion",
 ] as const;
