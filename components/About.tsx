@@ -20,7 +20,7 @@ export default function About() {
 
       <p className="mb-3">
         Upon completing my <span className="font-medium">Mechanical Engineering</span>, degree, I opted to follow my enthusiasm for programming. I embarked on a journey of acquiring knowledge in FrontEnd web development through YouTube tutorials and documentation. The facet of programming that resonates with me the most is the art of troubleshooting and finding resolutions. The gratification derived from unraveling complex problems is truly exhilarating. In my toolkit, I rely on {" "}        <span className="font-medium">
-          JavaScript,React, Next.js,Tailwind
+          React, Next.js,Tailwind
         </span> as the foundational technologies. Additionally, I possess strong expertise in data structures and algorithms, which enables me to effectively tackle complex problems and devise efficient solutions.  My experience includes participating in coding competitions where I've consistently demonstrated my problem-solving abilities.I maintain a perpetual eagerness to explore novel technological advancements.
       </p>
 
