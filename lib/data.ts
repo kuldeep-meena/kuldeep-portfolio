@@ -88,4 +88,5 @@ export const skillsData = [
   "C++",
   "Data Structures And Algorithms",
   "Framer Motion",
+   "Shadcn/ui"
 ] as const;
