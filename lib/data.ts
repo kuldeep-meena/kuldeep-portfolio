@@ -2,8 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import ecomImg from "@/public/ecom.png";
-import jamandplayImg from "@/public/jamandplay.png";
+import TravelImg from "@/public/latest.png";
+import homepageImg from "@/public/homepage.png";
+
 import trelloImg from "@/public/trello.png";
 
 export const links = [
@@ -58,18 +59,18 @@ export const projectsData = [
     description:
       " Feature-rich travel app covering everything from a sleek UI to mobile-first best practices. ",
     tags: ["Next.js 14", "Tailwind CSS", "Typescript","React.js"],
-    imageUrl: ecomImg,
-    projectLink: 'https://ecom-dashboard-five.vercel.app/',
+    imageUrl: TravelImg,
+    projectLink: 'https://modern-ui-ux-app-iota.vercel.app/',
     githubLink: 'https://github.com/kuldeep-meena/Modern-UI-UX-app',
   },
   {
-    title: "Jam and Play",
+    title: "Youtube Homepage",
     description:
-      "Learn the art and science of creating music, with Jam and Play's comprehensive courses",
-    tags: ["React", "TypeScript", "Headless UI", "Next.js", "Tailwind", "Framer-motion"],
-    imageUrl: jamandplayImg,
-    projectLink: 'https://www.jamandplay.com/',
-    githubLink: '',
+      "Experimented with building a mimic of the YouTube homepage interface.",
+    tags: ["TypeScript","Next.js", "Tailwind"],
+    imageUrl: homepageImg,
+    projectLink: 'https://youtube-homepage-kuldeep-meenas-projects.vercel.app/',
+    githubLink: 'https://github.com/kuldeep-meena/Youtube-Homepage',
   },
 ] as const;
 

@@ -25,7 +25,7 @@ export default function About() {
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, you'll find me immersed in Watching Movies/WebSeries, travelling, and PUBG conquests. <span className="font-medium">Learning is my ongoing pleasure</span>, currently focused on delving into the intricate world of backend architecture and the patterns that guide system design. And would you believe it, I'm even mastering the art of playing the guitar.
+        <span className="italic">When I'm not coding</span>, you'll find me immersed in Watching Movies/WebSeries, travelling, and  BGMI conquests. I like to spend my free time playing video games on my computer.<span className="font-medium">Learning is my ongoing pleasure</span>,My goal is to sharpen my problem-solving(Data structures and Algoritims) skills further, despite already possessing a solid foundation.
       </p>
     </motion.section >
   );
