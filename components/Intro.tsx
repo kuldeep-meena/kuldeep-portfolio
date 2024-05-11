@@ -48,10 +48,10 @@ function Intro() {
         animate={{ opacity: 1, y: 0 }}
         className='mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl'>
         <span className="font-bold">Hello, I'm Kuldeep.</span> I'm a{" "}
-        <span className="font-bold">FrontEnd developer</span> with{" "}
+        <span className="font-bold">Software Engineer</span> with{" "}
         <span className="font-bold">1.5 years</span> of experience. I enjoy
         building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span>.
+        <span className="underline">React</span>.
       </motion.h1>
 
       <motion.div className='flex flex-col sm:flex-row items-center justify-center gap-4 px-4 text-lg font-medium'
@@ -70,7 +70,7 @@ function Intro() {
           Contact Me <BsArrowRight className='opacity-70 group-hover:translate-x-1 transition' />
         </Link>
 
-        <a href="/Kuldeep_Meena_Software_Engineer.pdf" download={true} className='group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border border-black/10 dark:bg-white/10'>
+        <a href="/Kuldeep_Meena_Resume.pdf" download={true} className='group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border border-black/10 dark:bg-white/10'>
           Download CV <HiDownload className='opacity-60 group-hover:translate-y-1 transition' />
         </a>
         <a href="https://www.linkedin.com/in/kuldeepmeena567/" target="_blank" className='bg-white text-gray-700 p-4 flex items-center gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950  active:scale-105 transition dark:bg-white/10 dark:text-white/60 cursor-pointer border border-black/10'>

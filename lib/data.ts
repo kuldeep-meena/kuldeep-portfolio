@@ -4,7 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import TravelImg from "@/public/latest.png";
 import homepageImg from "@/public/homepage.png";
-
+import cryptocurrencyTracker from "@/public/Cryptocurrency-tracker.png"
 import trelloImg from "@/public/trello.png";
 
 export const links = [
@@ -72,21 +72,29 @@ export const projectsData = [
     projectLink: 'https://youtube-homepage-kuldeep-meenas-projects.vercel.app/',
     githubLink: 'https://github.com/kuldeep-meena/Youtube-Homepage',
   },
+  {
+    title: "Cryptocurrency Tracker",
+    description:"Developed a web application for monitoring real-time prices of all cryptocurrency coins over the past 24 hours.",
+    
+    tags: ["React","Chartjs", "Coin Gecko API","Firebase"],
+    imageUrl: cryptocurrencyTracker ,
+    projectLink: 'https://cryptocurrency-tracker-black.vercel.app/',
+    githubLink: 'https://github.com/kuldeep-meena/Cryptocurrency-tracker',
+  },
 ] as const;
 
 export const skillsData = [
-  "HTML",
+  "HTML5",
   "CSS",
-  "JavaScript",
+  "JavaScript(ES6)",
   "TypeScript",
-  "React",
+  "ReactJs",
   "Next.js",
-  "Git",
+  "Github",
   "Tailwind",
-  "Redux",
   "Java",
   "C++",
   "Data Structures And Algorithms",
   "Framer Motion",
-   "Shadcn/ui"
+  "Object Oriented Programming"
 ] as const;
