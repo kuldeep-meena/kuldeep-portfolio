@@ -6,7 +6,7 @@ import TravelImg from "@/public/latest.png";
 import homepageImg from "@/public/homepage.png";
 import cryptocurrencyTracker from "@/public/Cryptocurrency-tracker.png"
 import trelloImg from "@/public/trello.png";
-
+import profile from "@/public/Screenshot (28).png"
 export const links = [
   {
     name: "Home",
@@ -80,6 +80,15 @@ export const projectsData = [
     imageUrl: cryptocurrencyTracker ,
     projectLink: 'https://cryptocurrency-tracker-black.vercel.app/',
     githubLink: 'https://github.com/kuldeep-meena/Cryptocurrency-tracker',
+  },
+  {
+    title: "Coding Profile",
+    description:"Kept up a streak of participating in 127 contests,Secured a Global Rank 162 out of 29463 participants in Leetcode Weekly Contest 393.",
+    
+    tags: ["C++","Data structures and Algorithms"],
+    imageUrl: profile,
+    projectLink: '',
+    githubLink: 'hhttps://leetcode.com/u/Kuldeep_Meena/',
   },
 ] as const;
 
